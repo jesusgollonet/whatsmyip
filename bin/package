@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "bin/package"
+
+main(){
+    local bin_name="whatsmyip"
+    local package_name="package/whatsmyip-1.0.0.tar.gz"
+    local sha
+    tar -czf "$package_name" "$bin_name"
+    sha=$(shasum -a 256 $package_name | awk '{printf $1}')
+    echo "package $package_name generated"
+    echo "$sha" | pbcopy
+    echo "sha $sha is your clipboard"
+}
+
+main
+
