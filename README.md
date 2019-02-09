@@ -1,6 +1,6 @@
 # whatsmyip
 
-One liner to check your public ip. 
+Check your public ip. 
 
 ## Why
 
@@ -9,7 +9,12 @@ in my dotfiles.
 
 ## How to install
 
+Add my [ homebrew ] (https://brew.sh/) tap [ jesusgollonet/tap ] (https://github.com/jesusgollonet/homebrew-tap)
+
 `brew tap jesusgollonet/tap`
+
+then install
+
 `brew install whatsmyip`
 
 ## How to use
