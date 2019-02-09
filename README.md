@@ -9,7 +9,7 @@ in my dotfiles.
 
 ## How to install
 
-Add my [ homebrew ] (https://brew.sh/) tap [ jesusgollonet/tap ] (https://github.com/jesusgollonet/homebrew-tap)
+Add my [ homebrew ](https://brew.sh/) tap [ jesusgollonet/tap ](https://github.com/jesusgollonet/homebrew-tap)
 
 `brew tap jesusgollonet/tap`
 
